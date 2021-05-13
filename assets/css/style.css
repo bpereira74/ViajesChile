@@ -6,7 +6,7 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 0.8rem;
     background-color: black;
-}
+    }
 
 .navbar {
     background-color: var(--colorprincipal);
@@ -24,4 +24,19 @@ body {
 }
 .color-faw {
 background-color: var(--colorprincipal);
+}
+
+.carta-imagen {
+    background-color: black;
+   
+}
+
+.carta-imagen .card-body {
+    background-color: var(--colorprincipal);
+    
+}
+
+footer {
+    background-color: var(--colorprincipal);
+
 }
