@@ -31,6 +31,13 @@ background-color: var(--colorprincipal);
    
 }
 
+.carta-imagen img{
+     height: 15em;
+    overflow-x: hidden;
+    object-fit: cover;
+    }
+
+
 .carta-imagen .card-body {
     background-color: var(--colorprincipal);
     
@@ -38,5 +45,4 @@ background-color: var(--colorprincipal);
 
 footer {
     background-color: var(--colorprincipal);
-
 }
