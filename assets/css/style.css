@@ -1,3 +1,6 @@
+html {
+      scroll-behavior: smooth;
+}
 :root{
     --colorprincipal:rgb(48, 163, 174);
 }
@@ -19,6 +22,11 @@ body {
     font-weight: bold;
 }
 
+hr {
+  color: var(--colorprincipal);
+  width: 97%;
+  height: 30px;    
+}
 .logo-estilo {
     height: 3rem;
 }

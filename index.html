@@ -46,20 +46,20 @@
                                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                               </li>
                               <li class="nav-item">
-                                    <a class="nav-link" href="#">Quienes Somos</a>
+                                    <a class="nav-link" href="#quienes_somos">Quienes Somos</a>
                               </li>
                               <li class="nav-item">
-                                    <a class="nav-link" href="#">Destacados</a>
+                                    <a class="nav-link" href="#destacados">Destacados</a>
                               </li>
                               <li class="nav-item">
-                                    <a class="nav-link" href="#">Contacto</a>
+                                    <a class="nav-link" href="#contacto">Contacto</a>
                               </li>
                         </ul>
                   </div>
             </div>
       </nav>
 
-      <!-- Carrusel del-->
+      <!-- Carrusel-->
       <header>
             <div>
                   <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -102,9 +102,9 @@
       </header>
 
       <!--seccion quienes somos-->
-      <section class="container sm-12 md-6 lg-4 pt-5 pb-1">
+      <section id="quienes_somos" class="container sm-12 md-6 lg-4 pt-5 pb-1">
             <p class="text-center fs-5">Quienes Somos</p>
-      </section>
+      </section">
       <div class="container"></div>
       <hr>
       </div>
@@ -124,8 +124,10 @@
                         error consequatur
                         sed.</p>
             </div>
-
-            <!--segunda columna-->
+          
+            
+                     
+    <!--segunda columna-->
             <div class="col-4">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eveniet iusto quos laudantium
                         provident
@@ -166,7 +168,7 @@
       </section>
 
 
-      <section class="row row-cols-1 row-cols-lg-4 py-5 px-2 g-4 carta-imagen">
+      <section id="destacados" class="row row-cols-1 row-cols-lg-4 py-5 px-2 g-4 carta-imagen">
 
             <!--card 1-->
             <div class="col text-white">
@@ -182,7 +184,7 @@
                   </div>
             </div>
             <!--card 2-->
-            <div class="col text-white">
+            <div id="columna2" class="col text-white">
                   <div class="card h-100"><span class="border border-1 rounded"></span>
                         <img src="/assets/img/card2.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
@@ -191,9 +193,39 @@
                                     aperiam excepturi debitis illo beatae delectus, suscipit, dicta quasi sunt numquam
                                     quis, odio pariatur alias? Cum autem aliquid doloremque expedita!</p>
                               <p class="card-text"></p>
+                         <!-- Button trigger modal -->
+<button type="button" class="btn-outline-info" data-bs-toggle="modal fade" data-bs-target="#columna2">
+      Ver mas
+    </button>
                         </div>
                   </div>
             </div>
+            
+    
+    <!-- Modal -->
+      <div class="modal fade" id="columna2" 
+      role="dialog"     aria-labelledby="tituloventana"
+      tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="tituloventana">Viaje de ensueño</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+            &times;
+            </span>      
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/img/card2.jpg" alt="lago">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero vel quasi nam quisquam impedit at quaerat ullam sit similique explicabo, enim magni debitis laboriosam repellendus rem asperiores quibusdam neque nulla.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal fade">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
             <!--card 3-->
             <div class="col text-white">
                   <div class="card h-100"><span class="border border-1 rounded"></span>
@@ -223,20 +255,8 @@
             </div>
       </section>
 
-      <!--Sección Formulario-->
-      <section class="container-fluid text-center text-dark bg-light">
-            <h2 class="display-3 font-weight-bold py-1">Contacto</h2>
-            <p class="my-4">Hola, gracias por contactarnos</p>
-            <!--popover-->
-            <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover"
-                  data-bs-trigger="tempore" title="Formulario, cliquee para comenzar"
-                  data-bs-content="Cliquee para comenzar">Comenzar</a>
-      </section>
-
       <!--Formulario de contacto-->
-      <div class="typeform-widget" data-url="https://form.typeform.com/to/zGzXnB7q?typeform-medium=embed-snippet"
-            style="width: 100%; height: 500px;"></div>
-      <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
+      <div id="contacto" class="typeform-widget" data-url="https://form.typeform.com/to/sgQbums2?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 
 
       <!--Footer-->
