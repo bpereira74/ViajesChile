@@ -1,56 +1,53 @@
 html {
-      scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-:root{
-    --colorprincipal:rgb(48, 163, 174);
+:root {
+  --colorprincipal: rgb(48, 163, 174);
 }
 
-body {      
-    font-family: "Open Sans", sans-serif;
-    font-size: 0.8rem;
-    background-color: black;
-    }
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+  background-color: black;
+}
 
 .navbar {
-    background-color: var(--colorprincipal);
-    text-decoration-color: azure;
+  background-color: var(--colorprincipal);
+  text-decoration-color: azure;
 }
 
-.navbar-brand{
-    font-size: 40px;
-    font-family: Roboto;
-    font-weight: bold;
+.navbar-brand {
+  font-size: 40px;
+  font-family: Roboto;
+  font-weight: bold;
 }
 
 hr {
   color: var(--colorprincipal);
   width: 97%;
-  height: 30px;    
+  height: 30px;
 }
 .logo-estilo {
-    height: 3rem;
+  height: 3rem;
 }
 .color-faw {
-background-color: var(--colorprincipal);
+  background-color: var(--colorprincipal);
 }
 
 .carta-imagen {
-    background-color: black;
-   
+  background-color: black;
 }
 
-.carta-imagen img{
-     height: 15em;
-    overflow-x: hidden;
-    object-fit: cover;
-    }
-
+.carta-imagen img {
+  height: 15em;
+  overflow-x: hidden;
+  object-fit: cover;
+}
 
 .carta-imagen .card-body {
-    background-color: var(--colorprincipal);
-    
+  background-color: var(--colorprincipal);
 }
 
 footer {
-    background-color: var(--colorprincipal);
+  background-color: var(--colorprincipal);
 }
