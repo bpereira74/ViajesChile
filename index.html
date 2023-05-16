@@ -1,23 +1,28 @@
 <!doctype html>
 <html lang="en">
-
 <head>
       <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Bárbara Pereira">
 	<meta name="description" content="Pagina de Turismo por Chile">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/all.css">
       <link rel="shortcut icon" href="assets/img/viajes.svg" type="image/svg">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
             integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+      
       <title>Viajes Chile</title>
       </head>
 <body>
 <!-- Brand y Marca texto -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
       <div class="container-fluid py-3" style="background-color: #33A5B0;">
             <a class="navbar-brand text-light" href="#"><img src="assets/img/viajes.svg" alt="Logo" width="45"
                         height="35" class="d-inline-block align-text-top">
@@ -68,8 +73,74 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+<!-- Sección Quienes somos -->
+<section>
+<p class="fs-1 fw-bold text-center text-light">¿QUIÉNES SOMOS?</p>
+<div class="card-group">
+<!-- Card1 -->
+      <div class="card">
+            <a style="background-color: #33A5B0" class="py-3 text-center"><i class="fa-solid fa-plane fa-2xs"></i></a>
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis fugiat, aspernatur ex expedita aliquid ab ea mollitia vero harum recusandae, iste, illo beatae nihil eos eveniet delectus dolor totam iure?</p>
+        </div>
+      </div>
+<!-- Card2 -->
+<div class="card">
+      <a style="background-color: #33A5B0" class="py-3 text-center"><i class="fa-solid fa-mountain"></i></a>
+  <div class="card-body">
+    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est impedit aut praesentium tempore sequi distinctio? Necessitatibus inventore molestiae enim, blanditiis eos repellendus, quod, odit sunt nihil doloribus quidem quasi sint?</p>
+  </div>
+</div>
+<!-- Card3 -->
+      <div class="card">
+            <a style="background-color: #33A5B0" class=" text-center py-3"><i class="fa-solid fa-route"></i></a>
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, assumenda nihil magni voluptas quibusdam soluta quas voluptatibus consectetur consequuntur? Totam libero accusamus iure fugiat qui repudiandae repellat, necessitatibus adipisci iusto?</p>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- Sección Destacados -->
+<section>
+<p class="fs-1 fw-bold text-center text-light">DESTACADOS</p>
+<div class="card-group">
+      <div class="card">
+        <img src="assets/img/card1.jpg" class="card-img-top altura" alt="Mountain">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/img/card2.jpg" class="card-img-top altura" alt="Lake">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+            <img src="assets/img/card3.jpg" class="card-img-top altura" alt="Humedal">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+      <div class="card">
+        <img src="assets/img/card4.jpg" class="card-img-top altura" alt="Jungle">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
             crossorigin="anonymous"></script>
+
 </body>
 </html>
